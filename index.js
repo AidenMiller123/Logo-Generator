@@ -1,3 +1,4 @@
+// imports inquirer, fs, and generateLogo function
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateLogo = require('./lib/shapes');
@@ -33,8 +34,9 @@ inquirer
     },
 ])
 .then((data) => {
+  // Sets data thats ran through to generateLogo function and returns it to a variable
    logoPageContent = generateLogo(data);
-
+// Writes a SVG file called logo.svg and puts the results of the generateLogo in the body
     fs.writeFile(`logo.svg`, logoPageContent, (err) =>
      err ? console.error(err) : console.log('Generated logo.svg'))
     
