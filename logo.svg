@@ -4,9 +4,9 @@
     width="300" height="200"
     xmlns="http://www.w3.org/2000/svg">
     
-    <circle cx="150" cy="110" r="90" fill="pink" />
+    <polygon points="145, 2 20,160 290,160" fill="red" />
 
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="lime">ANG</text>
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="blue">MSS</text>
 
 
     </svg>

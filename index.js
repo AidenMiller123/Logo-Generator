@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateLogo = require('./lib/shapes');
+
+
 inquirer
 // Array of question the user will be asked
 .prompt ([{
