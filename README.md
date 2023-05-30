@@ -5,7 +5,7 @@
 
   ## Description
   
-  Generates a logo based on the users input
+  This application asks the user a series of prompts in the terminal. Based on the user's input, a logo is generated as a SVG file. 
   
 
   
